@@ -1,0 +1,33 @@
+.quiz-container {
+    
+    @apply w-full p-[2rem] md:p-[2.5rem] lg:p-[3rem] xl:p-[3.5rem] 2xl:p-[4rem] rounded-md shadow-inner
+}
+
+.quiz-container h4 {
+    text-shadow: 0px -0.5px 7.5px #000000a3;
+
+    @apply text-lg lg:text-xl xl:text-2xl pb-[2rem] font-black
+}
+
+.quiz-choices {
+    @apply p-2
+}
+
+.quiz-choices ul {
+    @apply flex flex-col gap-2 md:gap-3 lg:gap-4 xl:gap-5
+}
+
+.quiz-choices ul li {
+    
+    @apply rounded-md py-3 px-2 text-xs lg:text-sm text-black/95 font-medium cursor-pointer hover:scale-110 hover:drop-shadow-xl shadow-md active:outline outline-black/95 bg-white/90 hover:bg-white/50 transition-all
+}
+
+.quiz-choices .choice-selected {
+
+    @apply bg-black text-white
+}
+
+.quiz-container .quiz-btn {
+
+    @apply w-full px-2 py-4 mt-10 rounded-lg -mb-16 disabled:cursor-not-allowed transition-all hover:scale-105 active:outline font-semibold tracking-wider uppercase text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl shadow-inner hover:shadow-lg
+}

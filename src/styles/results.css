@@ -1,0 +1,14 @@
+button {
+    text-shadow: 0.75px 0px 5px #010101;
+    @apply p-5 rounded-lg font-bold text-lg active:outline outline-black hover:scale-110 transition-all
+}
+
+.description {
+
+    @apply w-[80vw] md:w-[500px] p-8 m-2 lg:w-[750px] border rounded-md shadow-inner bg-white/[.05] border-separate
+}
+
+.description p {
+
+    @apply tracking-wide text-sm md:text-base
+}
