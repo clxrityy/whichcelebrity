@@ -1,11 +1,4 @@
-# ![logo](/public/logo.png) Which Celebrity Are You? 
-
-<style>
-    img[alt=logo] {
-    width: 27.5px;
-    height: 27.5px;
-    }
-</style>
+# Which Celebrity Are You?
 
 An online quiz that utilizes AI to determine which celebrity (or famous person in history) you are the most like based on your answers to the questions provided.
 
