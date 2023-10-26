@@ -15,7 +15,9 @@ npm run dev
 
 ### `.env.local`
 
-The only environment variables needed are your [OpenAI]('https://openai.com/') **organization ID** and **API key**.
+#### OpenAI
+
+> *API for AI responses*
 
 ```env
 OPENAI_ORGANIZATION=
@@ -23,6 +25,17 @@ OPENAI_API_KEY=
 ```
 
 View / create your API key: **[API keys - OpenAI API](https://platform.openai.com/account/api-keys)**.
+
+#### Unsplash
+
+> *API for images*
+
+```env
+UNSPLASH_ACCESS_KEY=
+UNSPLASH_SECRET_KEY=
+```
+
+View / create your Unsplash API key: **[Unsplash | Developers](https://unsplash.com/developers)**
 
 ### `~/src/constants`
 

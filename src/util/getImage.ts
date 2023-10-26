@@ -1,6 +1,6 @@
-export const getCelebrity = async (id: string) => {
+export const getImage = async (name: string) => {
     try {
-        const res = await fetch(`/api/result/${id}`, {
+        const res = await fetch(`/api/result/image/${name}`, {
             method: 'GET',
         });
 
@@ -9,6 +9,7 @@ export const getCelebrity = async (id: string) => {
             throw new Error(error);
         }
         const data: string = await res.json().then(res => res);
+        console.log(data);
         return data;
     } catch (err) {
         console.log(err);

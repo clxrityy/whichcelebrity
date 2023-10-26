@@ -5,7 +5,7 @@ button {
 
 .description {
 
-    @apply w-[80vw] md:w-[500px] p-8 m-2 lg:w-[750px] border rounded-md shadow-inner bg-white/[.05] border-separate
+    @apply w-[80vw] md:w-[500px] p-8 m-2 lg:w-[750px] border rounded-md shadow-inner bg-white/[.1] border-separate flex flex-col lg:flex-row justify-center items-center gap-8
 }
 
 .description p {
